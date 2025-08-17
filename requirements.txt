@@ -1,0 +1,15 @@
+ultralytics==8.3.0
+torch>=2.1
+torchvision>=0.16
+opencv-python
+numpy
+Pillow
+matplotlib
+transformers>=4.41
+sentencepiece
+accelerate
+pymupdf==1.24.9               # <— PDF image extraction
+# SAM
+git+https://github.com/facebookresearch/segment-anything.git
+# optional helper
+supervision==0.25.1
